@@ -1,0 +1,27 @@
+{
+  "name": "shorts",
+  "version": "0.0.0",
+  "description": "A URL shortener",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/CMTegner/shorts.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "shortner",
+    "eat",
+    "my",
+    "shorts"
+  ],
+  "author": "Christian Maughan Tegner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CMTegner/shorts/issues"
+  },
+  "homepage": "https://github.com/CMTegner/shorts"
+}
