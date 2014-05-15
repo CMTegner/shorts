@@ -4,10 +4,11 @@
   "description": "A URL shortener",
   "main": "index.js",
   "scripts": {
-    "jshint": "jshint index.js",
-    "jscs": "jscs index.js",
+    "jshint": "jshint *.js",
+    "jscs": "jscs *.js",
     "validate": "npm run jshint && npm run jscs",
-    "test": "npm run validate"
+    "tape": "faucet test.js",
+    "test": "npm run validate && npm run tape"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,9 @@
   "homepage": "https://github.com/CMTegner/shorts",
   "devDependencies": {
     "jshint": "^2.5.0",
-    "jscs": "^1.4.5"
+    "jscs": "^1.4.5",
+    "request": "^2.34.0",
+    "faucet": "0.0.1",
+    "tape": "^2.13.0"
   }
 }
